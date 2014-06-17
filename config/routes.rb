@@ -4,7 +4,7 @@ Tatmedia::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-root 'application#main'
+root 'application#index'
   match '/ex',  to: 'application#ex',         via: 'get'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
