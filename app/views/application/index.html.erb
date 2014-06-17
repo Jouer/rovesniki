@@ -1,4 +1,6 @@
 <% provide(:title, 'Home') %>
+ <%= stylesheet_link_tag    "custom", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "custom", "data-turbolinks-track" => true %>
 <nav id= "premier-nav">
   <ul>     
     <li><%= link_to "1", '#premier', :class => "premier" %></li>
