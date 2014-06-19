@@ -41,18 +41,18 @@ h3 {color: $light-grey;font-size: 15px; margin-bottom: 0; font-style: italic;}
 }
 	#un{
 		position: absolute;
-		top: 10px;
-		right: 0;
+		top: 500px;
+		left: 0;
 	}
 	#deux {
 		position: absolute;
-		top: 30px;
-		left: 0;
+		top: 500px;
+		right: 0;
 	}
 	#trois {
 		position: absolute;
-		top: 6500px;
-		left: 40%;
+		top: 900px;
+		right: 0;
 	}
 
 /************************* CONTENT ************************/
@@ -85,7 +85,7 @@ h3 {color: $light-grey;font-size: 15px; margin-bottom: 0; font-style: italic;}
 	width: 80%;
 	margin: 0 auto;
 	z-index: 300;
-	#four {margin-bottom: 800px;}
+	#five {margin-bottom: 800px;}
 }
 article {margin-top: 10%;
 		@extend .box;
@@ -111,16 +111,12 @@ article {margin-top: 10%;
 		
 		}
 		#two {
-		position: absolute;
-		top: 1800px;
-		width: 400px;
+		
 		}
 		#three {
-		position: absolute;
-		top: 4400px;
-		width: 200px;
+		
 		}
-		#four {
+		#five {
 		position: absolute;
 		top: 13000px;
 		width: 800px;
