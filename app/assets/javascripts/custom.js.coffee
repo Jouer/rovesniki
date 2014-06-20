@@ -31,3 +31,8 @@ $("a.one").click ->
   $("html, body").animate scrollTop: $('#four').offset().top, 1000, ->
     parallax()
   false
+
+  $("a.five").click ->
+  $("html, body").animate scrollTop: $('#five').offset().top, 1000, ->
+    parallax()
+  false
