@@ -6,8 +6,8 @@ $green: #7d9100;
 $light-grey: #577058;
 $grey: #354242;
 
-h2 {color: $grey;font-size: 20px;margin-bottom: 0;}	
-h3 {color: $light-grey;font-size: 15px; margin-bottom: 0; font-style: italic;}	
+h2 {color: $grey;font-size: 20px;}	
+h3 {color: $light-grey;font-size: 15px;  font-style: italic;}	
 /************************* GRID ************************/
 #grid	{
 	$green-color: white !default;
@@ -41,28 +41,64 @@ h3 {color: $light-grey;font-size: 15px; margin-bottom: 0; font-style: italic;}
 }
 	#un{
 		position: absolute;
-		top: 500px;
+		top: 300px;
 		left: 0;
 	}
 	#deux {
 		position: absolute;
-		top: 500px;
-		right: 0;
+		top: 800px;
+		left: 0;
 	}
 	#trois {
 		position: absolute;
-		top: 900px;
+		top: 90px;
 		right: 0;
 	}
-
+	#quatre {
+			position: absolute;
+			top: 100px;
+			left: 0;
+		}
+	#sinq{
+		position: absolute;
+		top: 1200px;
+		right: 0;
+	}
+	#six {
+			position: absolute;
+			top: 1400px;
+			left: 0;
+		}
+	#sept{
+		position: absolute;
+		top: 2000px;
+		left: 40%;
+	}
+	#huit {
+			position: absolute;
+			top: 2700px;
+			right: 40%;
+			
+		}
+	#neuf{
+		position: absolute;
+		top: 3500px;
+		left: 40%;
+	}
+	#dix {
+			position: absolute;
+			top: 4500px;
+			right: 40%;
+			
+		}					
 /************************* CONTENT ************************/
 .box {	
 	section{
-		display: block;
-		float: right;
 		padding: 20px;
 		background-color: white;
+		border-radius: 3px 25px;
 		opacity: 0.8;
+		img {float: right;margin:  1em;}
 	    p:first-of-type:first-letter{
 	    	color: $grey;
 			font-family: Georgia, Times, serif;
@@ -82,26 +118,30 @@ h3 {color: $light-grey;font-size: 15px; margin-bottom: 0; font-style: italic;}
 #content {
 	color: #000;
 	position: relative;
-	width: 80%;
+
 	margin: 0 auto;
 	z-index: 300;
 	#five {margin-bottom: 800px;}
 }
+#header{
+	h2 {color: $grey;font-size: 20px;margin-top: 0;}
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	padding: 0;
+	background-color: white;
+	border-radius: 3px 3px;
+}
 article {margin-top: 10%;
 		@extend .box;
-		text-align: left;	
-	   	overflow: hidden;
-				
-	img {float: right; margin: 0 1em 1em 0;}
-	 .first {
-			border-radius: 3px 25px;
-			img {float: left;}
-			}
-	 .second {
-		border-radius: 5px 30px;
+		
+		.first {border-radius: 3px 25px;			
+		}
+		.second {
+			border-radius: 3px 3px;	
 		}		
-
-}	
+}
 		#home {
 			width: 100%;
 			top: 200px;
@@ -119,11 +159,15 @@ article {margin-top: 10%;
 		#four{
 
 		}
-		#five {
+		#five{
+
+		}
+		#footer {
 		position: absolute;
-		top: 13000px;
+		top: 14000px;
 		width: 800px;
-		margin-bottom: 800px;
+		margin-bottom: 0;
+			h2{margin-top: 1%;}
 		}
 /************************* NAVIGATION ************************/
 #premier-nav {
@@ -153,7 +197,7 @@ article {margin-top: 10%;
 			list-style-type: none;
 			text-align: center;
 			a {
-				color: #f1ecb9;
+				color: white;
 				font-weight: bold;
 				text-decoration: none; 
 			}
